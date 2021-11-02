@@ -12,7 +12,7 @@ import Home from '../pages/Home';
 import Order from '../pages/Order';
 import Product from '../pages/Product';
 import Shop from '../pages/Shop';
-import { ABOUT_ROUTE, ADDRESS_ROUTE, ADMIN_ROUTE, BLOGS_ROUTE, BLOG_ROUTE, CART_ROUTE, CONTACT_ROUTE, FAQ_ROUTE, HOME_ROUTE, LOGIN_ROUTE, NOTFOUND_ROUTE, ORDER_ROUTE, PRODUCT_ROUTE, REGISTRATION_ROUTE } from '../utils/consts';
+import { ABOUT_ROUTE, ADDRESS_ROUTE, ADMIN_ROUTE, BLOGS_ROUTE, BLOG_ROUTE, CART_ROUTE, CONTACT_ROUTE, FAQ_ROUTE, HOME_ROUTE, LOGIN_ROUTE, NOTFOUND_ROUTE, ORDER_ROUTE, PRODUCT_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE } from '../utils/consts';
 
 export const authRoutes = [
     {
@@ -73,5 +73,9 @@ export const publicRoutes = [
     {
         path: PRODUCT_ROUTE + '/:id',
         Component: Product,
+    },
+    {
+        path: SHOP_ROUTE,
+        Component: Shop,
     }
 ];
