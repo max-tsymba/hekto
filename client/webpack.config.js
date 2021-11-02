@@ -1,6 +1,8 @@
 const path = require('path');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const tailwind = require('tailwindcss');
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
     mode: 'development',
@@ -23,10 +25,23 @@ module.exports = {
         rules: [
             {
                 test: /\.(css|scss)$/,
-                use: ["style-loader", "css-loader", "sass-loader"]
+                use: [
+                    "style-loader", 
+                    "css-loader", 
+                    "sass-loader",
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            postcssOptions: {
+                                ident: 'postcss',
+                                plugins: [tailwind, autoprefixer],
+                            },
+                        },
+                    },
+                ]
             },
             {
-                test: /\.(jpg|jpeg|png|svg)/,
+                test: /\.(jpg|jpeg|png|svg|eot|ttf|woff)$/,
                 use: ['file-loader']
             },
             {
