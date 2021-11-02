@@ -6,7 +6,7 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
     mode: 'development',
-    entry: ["@babel/polyfill", './src/index.jsx'],
+    entry: ["@babel/polyfill", './src/public/index.jsx'],
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: "[name].[hash].js"
@@ -18,7 +18,7 @@ module.exports = {
         extensions: ['.jsx', '.js'],
     },
     plugins: [
-        new HTMLWebpackPlugin({template: "./src/index.html"}),
+        new HTMLWebpackPlugin({template: "./src/public/index.html"}),
         new CleanWebpackPlugin()
     ],
     module: {
