@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.scss';
+import { BrowserRouter } from 'react-router-dom';
+import { AppRouter } from './routes/AppRouter';
 
 export default function App() {
     return (
-        <div className="bg-gray-800">
-            React working!
-        </div>
+        <BrowserRouter>
+            <AppRouter />
+        </BrowserRouter>
     );
 };

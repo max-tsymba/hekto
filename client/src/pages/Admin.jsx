@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function SingleBlog() {
+export default function Admin() {
     return (
         <div>
-            Single Blog
+            Admin
         </div>
     )
 }
