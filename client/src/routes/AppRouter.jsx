@@ -8,8 +8,6 @@ export const AppRouter = () => {
 
     const {user} = useContext(Context);
 
-    console.log(user);
-
     return (
         <Switch>
             {user.isAuth && authRoutes.map(({path, Component}) => 
