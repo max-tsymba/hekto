@@ -11,7 +11,7 @@ module.exports = {
           '100': '#F1F1F1',
         },
         'black': 'black',
-        'violet': '#FB2E86',
+        'violet': '#7E33E0',
       },
       screens: {
         sm: '576px',
