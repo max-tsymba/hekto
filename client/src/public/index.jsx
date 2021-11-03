@@ -13,6 +13,9 @@ render(
         furniture: new FurnitureStore()
     }}>
         <App/>
+        <div className="bg-white-100 container">
+            Test
+        </div>
     </Context.Provider>,
     document.getElementById('root')
 )
