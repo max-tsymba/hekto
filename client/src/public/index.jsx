@@ -1,9 +1,16 @@
 import '../global/index.scss';
-import React from 'react';
+import React, {createContext} from 'react';
 import { render } from 'react-dom';
 import App from '../App.jsx';
+import UserStore from '../store/userStore';
+
+export const Context = createContext(null);
 
 render(
-    <App/>,
+    <Context.Provider value={{
+        user: new UserStore()
+    }}>
+        <App/>
+    </Context.Provider>,
     document.getElementById('root')
 )
