@@ -10,9 +10,12 @@ module.exports = {
           DEFAULT: 'white',
           '100': '#F1F1F1',
           '200': '#E7E6EF',
+          '300': '#E7E4F8',
+          '400': '#9DA0AE',
         },
         'blue': {
           DEFAULT: '#0D0E43',
+          '100': '#151875',
         },
         'black': 'black',
         'violet': '#7E33E0',
@@ -36,6 +39,9 @@ module.exports = {
       },
       lineHeight: {
         '125': '1.25',
+      },
+      borderRadius: {
+        'full': '50%',
       },
       fontFamily: {
         default: ['josefin-sans', 'sans-serif'],
@@ -72,10 +78,12 @@ module.exports = {
       },
       extend: {
         width: {
+          'w20': '20px',
           'w40': '40px',
           'w50': '50px',
         },
         height: {
+          'h20': '20px',
           'h40': '40px',
         },
       },
