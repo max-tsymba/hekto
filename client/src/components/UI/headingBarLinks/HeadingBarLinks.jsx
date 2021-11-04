@@ -4,10 +4,9 @@ import Svg from '../svg/Svg'
 const HeadingBarLinks = () => {
     return (
         <div className="text-white-100">
-            <a href="#" className="inline-block relative pl-26">
+            <a href="mailto:mhhasanul@gmail.com" className="inline-block relative pl-26 font-semibold">
                 <span className="absolute top-1/2 mt-1 transform -translate-y-1/2 left-0">
                     <Svg 
-                        url = "mailto:mhhasanul@gmail.com"
                         width = "16"
                         height = "16"
                         d = {[
@@ -18,10 +17,9 @@ const HeadingBarLinks = () => {
                 mhhasanul@gmail.com
             </a>
 
-            <a href="#" className="inline-block ml-48 relative pl-26">
+            <a href="tel:(12345)67890" className="inline-block ml-48 relative pl-26 font-semibold">
                 <span className="absolute top-1/2 mt-1 transform -translate-y-1/2 left-0">
                     <Svg 
-                        url = "mailto:mhhasanul@gmail.com"
                         width = "16"
                         height = "16"
                         d = {[
