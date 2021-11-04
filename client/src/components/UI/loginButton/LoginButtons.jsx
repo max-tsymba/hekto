@@ -37,7 +37,7 @@ const LoginButtons = observer (() => {
                         </span>
                     </button>
 
-                    <button type="button" className="text-sm text-white-100 mx-8 font-semibold leading-125 pr-18 relative">
+                    <button type="button" className="text-sm text-white-100 mx-8 font-semibold leading-125 relative">
                         <Svg 
                             width = "24"
                             height = "24"
@@ -78,7 +78,7 @@ const LoginButtons = observer (() => {
                         </span>
                     </button>
 
-                    <button type="button" className="text-sm text-white-100 mx-8 font-semibold leading-125 pr-18 relative">
+                    <button type="button" className="text-sm text-white-100 mx-8 font-semibold leading-125 relative">
                         <Svg 
                             width = "24"
                             height = "24"

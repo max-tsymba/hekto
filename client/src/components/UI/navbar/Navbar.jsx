@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../../assets/img/logo.png';
 import { HOME_ROUTE } from '../../../utils/consts';
 import Nav from '../nav/Nav';
+import Searchbar from '../searchBar/Searchbar';
 
 const Navbar = () => {
     return (
@@ -12,6 +13,7 @@ const Navbar = () => {
                         <img src={logo} alt="logo" />
                     </a>
                     <Nav />
+                    <Searchbar />
                 </div>
             </div>
         </div>

@@ -9,6 +9,7 @@ module.exports = {
         'white': {
           DEFAULT: 'white',
           '100': '#F1F1F1',
+          '200': '#E7E6EF',
         },
         'blue': {
           DEFAULT: '#0D0E43',
@@ -71,14 +72,18 @@ module.exports = {
       },
       extend: {
         width: {
+          'w40': '40px',
+          'w50': '50px',
         },
         height: {
+          'h40': '40px',
         },
       },
     },
     variants: {
       extend: {
         textColor: ['hover', 'active',],
+        borderColor: ['focus'],
       },
     },
     plugins: [],
