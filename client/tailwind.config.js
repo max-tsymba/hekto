@@ -10,8 +10,12 @@ module.exports = {
           DEFAULT: 'white',
           '100': '#F1F1F1',
         },
+        'blue': {
+          DEFAULT: '#0D0E43',
+        },
         'black': 'black',
         'violet': '#7E33E0',
+        'pink': '#FB2E86',
       },
       screens: {
         sm: '576px',
@@ -34,6 +38,7 @@ module.exports = {
       },
       fontFamily: {
         default: ['josefin-sans', 'sans-serif'],
+        "lato": ['lato', 'sans-serif'],
       },
       spacing: {
         0: '0px',
@@ -46,8 +51,11 @@ module.exports = {
         16: '16px',
         18: '18px',
         20: '20px',
+        22: '22px',
         26: '26px',
+        34: '36px',
         48: '48px',
+        86: '86px',
       },
       maxWidth: {
 
@@ -69,7 +77,9 @@ module.exports = {
       },
     },
     variants: {
-      extend: {},
+      extend: {
+        textColor: ['hover', 'active',],
+      },
     },
     plugins: [],
   }
