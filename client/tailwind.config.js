@@ -12,6 +12,7 @@ module.exports = {
           '200': '#E7E6EF',
           '300': '#E7E4F8',
           '400': '#9DA0AE',
+          '500': '#EEEFFB',
         },
         'blue': {
           DEFAULT: '#0D0E43',
@@ -20,6 +21,7 @@ module.exports = {
         'black': 'black',
         'violet': '#7E33E0',
         'pink': '#FB2E86',
+        'subtext': '#8A8FB9',
       },
       screens: {
         sm: '576px',
@@ -31,16 +33,18 @@ module.exports = {
         center: true,
         padding: '15px',
         screens: {
-          'desktop': '1200px',
+          'desktop': '1300px',
         },
       },
       fontSize: {
         'sm': '16px',
+        'md': '22px',
       },
       lineHeight: {
         '125': '1.25',
       },
       borderRadius: {
+        '4': '4px',
         'full': '50%',
       },
       fontFamily: {
@@ -60,12 +64,16 @@ module.exports = {
         20: '20px',
         22: '22px',
         26: '26px',
+        30: '30px',
         34: '36px',
+        40: '40px',
+        42: '42px',
         48: '48px',
         86: '86px',
+        100: '100px',
       },
       maxWidth: {
-
+        '380': '380px',
       },
       minWidth: {
 
@@ -92,6 +100,7 @@ module.exports = {
       extend: {
         textColor: ['hover', 'active',],
         borderColor: ['focus'],
+        opacity: ['hover'],
       },
     },
     plugins: [],

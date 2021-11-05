@@ -8,6 +8,14 @@
 
 @font-face {
     font-family: 'josefin-sans';
+    src: url('../assets/fonts/josefin-sans-medium.ttf') format('truetype'),
+    url('../assets/fonts/josefin-sans-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefin-sans';
     src: url('../assets/fonts/josefin-sans-semibold.ttf') format('truetype'),
     url('../assets/fonts/josefin-sans-semibold.woff2') format('woff2');
     font-weight: 600;

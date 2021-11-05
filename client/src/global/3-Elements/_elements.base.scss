@@ -37,6 +37,9 @@ hr {
 }
 
 p {
-    margin: 0 0 16px;
+    margin: 0 0 10px;
     line-height: inherit;
+    &:last-child{
+      margin: 0;
+    }
 }
