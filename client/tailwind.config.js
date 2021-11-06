@@ -19,6 +19,7 @@ module.exports = {
           DEFAULT: '#0D0E43',
           '100': '#151875',
           '200': '#101750',
+          '300': '#152970',
         },
         'black': 'black',
         'violet': '#7E33E0',
@@ -41,11 +42,13 @@ module.exports = {
       fontSize: {
         'sm': '16px',
         'md': '22px',
+        'md-s': '24px',
         'xl': '36px',
       },
       lineHeight: {
         '12': '1.2',
         '125': '1.25',
+        '16': '1.6',
         '17': '1.7',
       },
       borderRadius: {
@@ -74,8 +77,10 @@ module.exports = {
         40: '40px',
         42: '42px',
         48: '48px',
+        60: '60px',
         86: '86px',
         100: '100px',
+        124: '124px',
       },
       maxWidth: {
         '380': '380px',
