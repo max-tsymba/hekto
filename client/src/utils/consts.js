@@ -13,3 +13,18 @@ export const ORDER_ROUTE = '/order';
 export const PRODUCT_ROUTE = '/product';
 export const BLOG_ROUTE = '/blog';
 export const NOTFOUND_ROUTE = '/404';
+
+export const PAGE_NAMES = [
+    'Shop', 
+    'Product Details',
+    'Cart',
+    'Order Completed',
+    'Payment',
+    'My Account',
+    'Blogs Page',
+    'Blog Page',
+    'About Us',
+    'Contact Us',
+    'FAQ',
+    '404 Not Found'
+];

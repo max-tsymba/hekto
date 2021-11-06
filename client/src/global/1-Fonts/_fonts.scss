@@ -23,6 +23,14 @@
 }
 
 @font-face {
+    font-family: 'josefin-sans';
+    src: url('../assets/fonts/josefin-sans-bold.ttf') format('truetype'),
+    url('../assets/fonts/josefin-sans-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'lato';
     src: url('../assets/fonts/lato-regular.woff2') format('woff2');
     font-weight: 400;
